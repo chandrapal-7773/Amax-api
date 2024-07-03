@@ -13,7 +13,7 @@ phases:
       - dotnet build Amax.InsurancePro.API/Amax.InsurancePro.API.csproj
   post_build:
     commands:
-      dotnet publish -c Release -r linux-x64 -o ./app/ Amax.InsurancePro.API/Amax.InsurancePro.API.csproj
+      - dotnet publish -c Release -o ./app/ Amax.InsurancePro.API/Amax.InsurancePro.API.csproj
 artifacts:
   files:
     - '**/*'
