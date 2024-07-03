@@ -1,1 +1,1 @@
-web: dotnet ./app/dotnet Amax.InsurancePro.API.dll
+web: dotnet ./app/Amax.InsurancePro.API.dll
